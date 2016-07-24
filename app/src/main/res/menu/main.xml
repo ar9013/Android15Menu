@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_setting"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="help"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="About"
+        android:icon="@mipmap/ic_launcher"/>
+
+    <item
+        android:id="@+id/list_item1"
+        android:title="編輯"/>
+
+    <item
+        android:id="@+id/list_item2"
+        android:title="刪除"/>
+
+    <item
+        android:id="@+id/list_item3"
+        android:title="列表"/>
+
+    <item
+        android:id="@+id/list_item4"
+        android:title="測試"/>
+
+</menu>
